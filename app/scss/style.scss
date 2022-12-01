@@ -26,9 +26,15 @@ a {
   text-decoration: none;
 }
 
-.container {
+.big-container {
   padding: 0 10px;
   max-width: 1220px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 10px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
