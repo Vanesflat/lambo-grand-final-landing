@@ -1,0 +1,54 @@
+.promo {
+  background-image: url(../images/promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 76px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-family: 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+
+    align-self: center;
+
+    border-bottom: 1px solid #040404;
+    margin-bottom: 10px;
+
+    span {
+      display: block;
+      font-size: 34px;
+      color: #9F6B08;
+      padding: 10px 0;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 10px;
+  }
+
+  &__arrow {
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
+  }
+}
