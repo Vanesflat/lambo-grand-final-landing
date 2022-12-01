@@ -1,0 +1,20 @@
+.header {
+  padding-top: 25px;
+
+  &__menu-list {
+    display: flex;
+    gap: 0 40px;
+    padding-top: 25px;
+  }
+
+  &__menu-link {
+    color: #363636;
+    font-size: 16px;
+  }
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
