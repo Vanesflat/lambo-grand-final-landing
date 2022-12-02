@@ -1,0 +1,30 @@
+.track {
+  background-image: url(../images/track-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    min-height: 75vh;
+    position: relative;
+  }
+
+  &__title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 300;
+  }
+
+  &__text {
+    max-width: 435px;
+  }
+
+  &__img {
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
