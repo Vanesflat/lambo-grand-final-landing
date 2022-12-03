@@ -51,4 +51,36 @@
       transform: translateX(8px);
     }
   }
+
+  &__quote {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+
+    &-box {
+      flex-basis: 434px;
+    }
+  }
+}
+
+.blockquote {
+  margin-bottom: 30px;
+
+  &__name {
+    font-weight: 700;
+    font-style: normal;
+
+    span {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      color: #9F6B08;
+      margin-bottom: 3px;
+    }
+  }
+
+  &__text {
+    font-style: italic;
+    margin-top: 10px;
+  }
 }
