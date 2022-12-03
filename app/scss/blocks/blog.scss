@@ -1,0 +1,54 @@
+.blog {
+  margin-bottom: 100px;
+
+  &__title {
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__slider {
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  &__item {
+    &-img {
+      margin-bottom: 20px;
+    }
+
+    &-title {
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      min-height: 46px;
+    }
+
+    &-text {
+      margin-bottom: 10px;
+    }
+
+    &-link {
+      font-size: 12px;
+      color: #363636;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    margin-left: 50%;
+
+    &-prev {
+      transform: translateX(-41px);
+    }
+
+    &-next {
+      transform: translateX(8px);
+    }
+  }
+}
