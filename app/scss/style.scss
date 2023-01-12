@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .big-container {
   padding: 0 10px;
   max-width: 1220px;
@@ -45,3 +49,4 @@ a {
 @import "blocks/track.scss";
 @import "blocks/evo.scss";
 @import "blocks/blog.scss";
+@import "blocks/footer.scss";
