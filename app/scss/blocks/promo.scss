@@ -50,5 +50,14 @@
     margin-top: auto;
     margin-bottom: 30px;
     align-self: center;
+    transition: transform 1s ease-in-out;
+
+    &:hover {
+      transform: translateY(5px);
+    }
+
+    &-mobile {
+      display: none;
+    }
   }
 }

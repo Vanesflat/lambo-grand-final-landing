@@ -19,11 +19,63 @@
     }
   }
 
+  &__logo {
+    z-index: 10;
+    transition: transform .3s ease;
+
+    &:hover {
+      transform: scale(.98);
+    }
+  }
+
   &__menu-link {
     color: #363636;
     font-size: 16px;
+
+    &:hover {
+      border-bottom: 1px solid #040404;
+    }
   }
 
+  &__menu-mobile,
+  &__menu-button {
+    display: none;
+    transition: transform .3s ease;
+  }
+
+  &__menu-mobile.header__menu-mobile--open {
+    transform: translateX(0);
+
+    .header__menu-link {
+      color: #ababab;
+      font-size: 3vh;
+      display: block;
+      padding: 20px 0;
+    }
+  }
+
+  &__menu-button {
+    z-index: 10;
+
+    span {
+      transition: all .3s ease;
+    }
+  }
+
+  &__menu-button.header__menu-button--active {
+
+    span:first-child {
+      transform: translateY(13px) rotate(45deg);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+    }
+
+    span:last-child {
+      transform: translateY(-12px) rotate(-45deg);
+    }
+  }
 }
 
 .nav {

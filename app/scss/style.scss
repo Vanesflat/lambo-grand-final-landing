@@ -42,6 +42,8 @@ li {
   margin: 0 auto;
 }
 
+@import "vendor/reset.scss";
+
 //blocks
 @import "blocks/header.scss";
 @import "blocks/promo.scss";
@@ -50,3 +52,6 @@ li {
 @import "blocks/evo.scss";
 @import "blocks/blog.scss";
 @import "blocks/footer.scss";
+
+//media
+@import "media.scss";
