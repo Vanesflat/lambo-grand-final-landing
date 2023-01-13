@@ -1,3 +1,11 @@
+const mobileMenuBtn = document.querySelector('.header__menu-button');
+const mobileMenu = document.querySelector('.header__menu-mobile');
+
+mobileMenuBtn.addEventListener('click', () => {
+  mobileMenu.classList.toggle('header__menu-mobile--open');
+  mobileMenuBtn.classList.toggle('header__menu-button--active');
+});
+
 // Слайдкер Swiper API
 const swiper = new Swiper('.swiper', {
   loop: true,
