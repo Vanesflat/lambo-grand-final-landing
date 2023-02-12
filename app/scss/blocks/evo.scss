@@ -52,6 +52,7 @@
   }
 
   &__img {
+    width: 100%;
     display: block;
     margin: 170px auto 60px;
     position: relative;
@@ -63,6 +64,10 @@
     gap: 0 65px;
     position: relative;
     z-index: 10;
+
+    dd {
+      width: 100%;
+    }
   }
 }
 

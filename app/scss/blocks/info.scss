@@ -48,7 +48,7 @@
     top: 20px;
 
     & td {
-      padding-bottom: 20px;
+      padding: 0 5px 20px 5px;
     }
 
     &::before {
@@ -60,15 +60,12 @@
     }
   }
 
-  &__part--second .info__text {
+  &__part--second .info__text,
+  &__part--third .info__text {
     max-width: 352px;
   }
 
-  &__part--third .info__text {
-    max-width: 377px;
-  }
-
   &__img {
-    object-fit: cover;
+    object-fit: contain;
   }
 }
