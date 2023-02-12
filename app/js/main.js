@@ -9,12 +9,19 @@ mobileMenuBtn.addEventListener('click', () => {
 // Слайдкер Swiper API
 const swiper = new Swiper('.swiper', {
   loop: true,
-  slidesPerView: 2,
-  spaceBetween: 20,
   navigation: {
     nextEl: '.blog__btn-next',
     prevEl: '.blog__btn-prev',
   },
+  breakpoints: {
+    0: {
+      slidesPerView: 1
+    },
+    800: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    }
+  }
 });
 
 // Карта Google API
